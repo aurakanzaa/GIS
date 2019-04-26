@@ -84,6 +84,7 @@
               <div class="menu_section">
                 <ul class="nav side-menu">
                   <li><a href="<?php echo base_url('Home'); ?>"><i class="fa fa-home"></i> Home</a></li>
+                  <li><a href="<?php echo base_url('Upload'); ?>"><i class="fa fa-upload"></i> Upload</a></li>
                 </ul>
               </div>
             </div>

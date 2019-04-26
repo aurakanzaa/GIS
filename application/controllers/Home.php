@@ -11,6 +11,11 @@ class Home extends CI_Controller {
         $this->load->library('curl');
     }
     
+    public function depan(){
+        $this->load->view('partials/header');
+        $this->load->view('depan');
+        $this->load->view('partials/footer');
+    }
 //     public function login()
 // 	{	
 // 	    $jsonString=$this->curl->simple_get('https://api.thegadeareamalang.com/bpo/index.php/register/spv', array(CURLOPT_BUFFERSIZE => 10));
